@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+font-family: Arial;
+}
+
+.logo {
+    width: 250px;
+    display: block;
+    margin: 200px auto 10px;
+}
+
+.contenedor {
+   width: 610px;
+   margin:20px auto;
+   box-shadow: 1px 2px 1px rgba(0,0,0,.05);
+   border-radius: 2px;
+   border: 1px solid #ddd;
+   
+}
+
+
+.buscador {
+    width: 573px;
+    height: 40px;
+    font-size: 15px;
+    border: 0;
+    vertical-align: middle;
+    outline: none;
+    padding: 5px;
+}
+
+.busqueda, .suerte {
+    display: inline-block;
+    width: 200px;
+    margin:auto;
+    background: rgba(0,0,0,0.04);
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 12px;
+    border-color: transparent;
+    
+}
+
+.busqueda:hover, .suerte:hover {
+color: black;
+border-width: 1px;
+border-style: solid;
+border-color: rgb(202, 193, 193);
+}
+
+
+.botones {
+    text-align: center;
+    font-weight: bold;
+    color: #444; 
+}
+
+.img {
+    width: 22px;
+    vertical-align: middle;
+}

@@ -18,39 +18,56 @@ body {
     position: absolute;
     top:  200px; 
     left: 1200px;
-    font-size: 18px;
+    font-size: 20px;
     
 }
 
 .sobre {
-    position: absolute;  
+    display: inline-block;
+    width: 200px;
     top: 0px;
-    left: 1080px;
-    text-decoration: none;
     cursor: pointer;
     
 }
 
 .trabajos {
-    position: absolute;
+    display: inline-block;
     width: 200px;
     top: 0px; 
-    left: 1100px;
+    cursor: pointer;
 }
 
 .contacto {
-    position: absolute;  
+    display: inline-block;
+    width: 200px;
     top: 0px;
-    left: 1250px;
+    cursor: pointer;
+}
+
+.inicio {
+    display: inline-block;
+    width: 200px;
+    top: 0px;
+    cursor: pointer;
 }
 
 .nombre {
     font-size: 30px;
 }
 
-.semcuatro {
-    
-    top:  200px; 
-    left: 1000px;
-    right: 100px;
+
+.about {
+    text-decoration: none;
+}
+
+.work {
+    text-decoration: none;
+}
+
+.contact {
+    text-decoration: none;
+}
+
+.home {
+    text-decoration: none;
 }

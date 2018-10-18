@@ -3,13 +3,13 @@
 }
 
 body {
-    font-family: 'Special Elite', cursive;
+    font-family: 'Roboto', sans-serif;
     margin:100; 
     padding: 10px;
-    background:url(http://images5.fanpop.com/image/photos/27500000/The-Slip-nine-inch-nails-27519710-1280-800.jpg);
-    background-attachment: fixed;
+    background:url(background.png);
+    background-attachment: cover;
     text-align: center;
-    background-size: cover;
+    background-size: 100%;
 }
 
 
@@ -20,6 +20,7 @@ body {
     top:  200px; 
     left: 1200px;
     font-size: 20px;
+    color: black;
     
 }
 
@@ -38,24 +39,15 @@ body {
     cursor: pointer;
 }
 
-.contacto {
-    display: inline-block;
-    width: 200px;
-    top: 0px;
-    cursor: pointer;
-}
+
 
 .inicio {
     display: inline-block;
     width: 200px;
     top: 0px;
     cursor: pointer;
+    
 }
-
-.nombre {
-    font-size: 30px;
-}
-
 
 .about {
     text-decoration: none;
@@ -64,12 +56,15 @@ body {
 
 .work {
     text-decoration: none;
+    color: black;
 }
 
 .contact {
     text-decoration: none;
+    color: black;
 }
 
 .home {
     text-decoration: none;
+    color: black;
 }

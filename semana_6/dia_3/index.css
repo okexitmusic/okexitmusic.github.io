@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Bree Serif', serif;
+	background-color: #D6EAF8;
+	width:100%;
+}
+
+.caja {
+    
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    margin: 20px;
+    background-color: #3AA5F7;
+    color: #34495E;
+}
+
+.primeraparte {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px;
+}
+
+.segundaparte {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.darkside {
+	width: 200px;
+}
+
+.versus {
+	width: 150px;
+}
+.animals {
+	width: 200px;
+}
+
+.versus2 {
+	width: 150px;
+}
+
+.wall {
+	width: 200px;
+}
+
+.instrucciones {
+	font-size: 1.5em;
+	margin: 80px;
+	color: #34495E;
+	border-style: dotted;
+	padding: 30px 30px 30px 30px;
+}
+
+.diagrama2 {
+	width: 400px;
+}
+
+.terceraparte {
+	display: flex;
+	justify-content: space-around;
+	margin: 80px;
+}
+
+.jugador {
+	border-style: groove;
+	padding: 20px;
+}
+
+.compu {
+border-style: groove;
+padding: 20px;
+}
+
+
+.jugador1 {
+	width: 200px;
+}
+
+.guantes {
+	width: 200px;
+}
+
+.compu1 {
+	width: 200px;
+}
+
+.seleccion {
+	display: flex;
+	flex-direction: column; 
+	justify-content: space-between;
+}
+
+.seleccion img {
+	width: 70px;	
+	justify-content: space-between;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.comenzar {
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+}
+
+.botoncomienzo {
+	width: 150px;
+    background: rgba(91, 166, 209, 0.877);
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+	color: rgb(42, 38, 65);
+	border-style: solid;
+	cursor: pointer;
+}
+
+
+@media all and (max-width: 360px) {
+
+	.terceraparte {
+		
+	}
+
+}
